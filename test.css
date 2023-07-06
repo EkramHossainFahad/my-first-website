@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(62, 62, 62);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    width: 300px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 25px;
+    padding-right: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.item:hover{
+    color: rgb(255, 111, 0);
+}
+.banner-img{
+    width: 400px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    color: white;
+}
+
+.title{
+    font-size: 75px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(255, 111, 0);
+}
+
+.about-container{
+    display: flex;
+    height: 550px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.about-title{
+    font-size: 55px;
+    text-align: center;
+    padding: 20px;
+}
+.info-title{
+    font-size: 40px;
+}
+.info-description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: rgb(109, 110, 109);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+.icon{
+    width: 130px;
+    padding: 15px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 15px;
+}
+.box-discription{
+    padding: 15px;
+    text-align: justify;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    
+}
+.Services-area{
+    background-color: rgb(95, 99, 97);
+}
+.about-titles{
+    color: white;
+}
